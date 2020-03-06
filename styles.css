@@ -1,0 +1,15 @@
+body {
+    font-family: "Lobster", open-sans;
+}
+
+.card .card-title {
+    color: #fff;
+}
+
+.navbar {
+    margin: 2px;
+}
+
+.card .card-body {
+    background-color: grey;
+}
