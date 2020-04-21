@@ -8,49 +8,143 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="styles.css" />
 
-    <title>Dan Beto | Web Developer</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    . . .
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+
+    <title>Dan Beto</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-light sticky-top">
-      <a class="navbar-brand" href="#">Dan Beto/Web Developer</a>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="index.html"
+        >Dan Beto <span>/</span> Web & Mobile App Developer
 
-    <div class="container">
-      <div class="row">
-        <div class="col col-sm-6">
-          <div class="card bg-secondary" style="width: 18rem;">
-            <div class="card-body">
-              <h5 class="card-title" style="color: #fff;">Bootstrap</h5>
-              <p class="card-text">
-                Some examples of my work with HTML & CSS with Bootstrap
-                framework!
-              </p>
-              <a href="https://github.com/dan31408/NuCamp-Bootstrap" class="btn btn-info">My GitHub</a>
+        <div class="row">
+          <div class="col col-lg-6">
+            <div class="logo-image">
+              <img class="w-100" src="assets/portrait.jpg" alt="" />
             </div>
           </div>
         </div>
+      </a>
+    </nav>
 
-        <div class="col col-sm-6">
-          <div class="card bg-secondary" style="width: 18rem; height: 12.8rem;">
-            <div class="card-body">
-              <h5 class="card-title" style="color: #fff;">React</h5>
-              <p class="card-text">
-                Some examples of my work with Javascript in the React framework!
-              </p>
-              <a href="#" class="btn btn-info">My GitHub</a>
-            </div>
-          </div>
+    <div class="col">
+      <h1 class="offset-1">Hi, I'm Dan!</h1>
+    </div>
+
+    <div class="container">
+      <h2 class="mr-4">Developing Front-End & Back-End</h2>
+    </div>
+
+    <br />
+    <hr />
+    <br />
+
+    <div class="container">
+      <div class="row">
+        <div class="col pt-4 text-center text-info">
+          <h3>Languages I Know</h3>
         </div>
       </div>
     </div>
 
+    <div class="card">
+      <div class="card-body">
+        <div class="col col-sm-6">
+          <h4>Javascript</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <div class="col col-sm-6">
+          <h4>HTML<span>/</span>CSS</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <div class="col col-sm-6">
+          <h4>SASS<span>/</span>SCSS</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col pt-4 text-center text-info">
+          <h3>Frameworks I Know</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <div class="col col-sm-6">
+          <h4>React</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <div class="col col-sm-6">
+          <h4>React-Native</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <div class="col col-sm-6">
+          <h4>Bootstrap</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <div class="col col-sm-6">
+          <h4>Express</h4>
+        </div>
+      </div>
+    </div>
+    <footer class="jumbotron jumbotron-fluid">
+      <ul class="list-unstyled">
+        <li><a href="https://github.com/dan31408"><i class="fa fa-github">Github</i></a></li>
+        <li><a href="https://www.facebook.com/dan.beto.5"><i class="fa fa-facebook-square">Facebook</i></a></li>
+        <li><a href="https://www.instagram.com/dan.beto31408/"><i class="fa fa-instagram">Instagram</i></a></li>
+        <li></li>
+        <li><a><i></i></a></li>
+      </ul>
+      <!--jQuery must come first, then popper, then bootstrap-->
+      <script src="node_modules/jquery/dist/jquery.slim.min.js/bootstrap.min.css"></script>
+      <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </footer>
   </body>
-  <footer>
-    <!--jQuery must come first, then popper, then bootstrap-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js/bootstrap.min.css"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  </footer>
 </html>

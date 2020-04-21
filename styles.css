@@ -1,15 +1,72 @@
 body {
+    font-family: "Anton", sans-serif;
+}
+
+h1 {
+    color: #A9A9A9;
+}
+
+h3 {
+    font-family: 'Merriweather', serif;
+
+}
+
+h4 {
     font-family: "Lobster", open-sans;
 }
 
-.card .card-title {
-    color: #fff;
+img {
+    background-color: white;
+    border-radius: 5%;
+    margin: 5px;
 }
 
-.navbar {
-    margin: 2px;
+.logo-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 10%;
+    overflow: hidden;
 }
 
-.card .card-body {
-    background-color: grey;
+.navbar-brand {
+    font-family: "Lobster", open-sans;
+}
+
+p {
+    color: #ddd;
+}
+
+#node-logo {
+    background-color: black;
+}
+
+span {
+    color: #b00000;
+    padding: 10px;
+    text-shadow: 5px 5px #194052;
+}
+
+#framelogo4 {
+    margin-top: 50px;
+    margin-left: 1000px;
+}
+
+#framelogo3 {
+    margin: 50px;
+    margin-left: 750px;
+}
+
+#framelogo2 {
+    margin-left: 350px;
+}
+
+hr {
+    border:none;
+    height: 20px;
+ 	width: 90%;
+	height: 50px;
+	margin-top: 0;
+	border-bottom: 1px solid #1f1209;
+	box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
 }
