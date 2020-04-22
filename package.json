@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "npm-run-lite",
-    "start": "lite-server"
+    ""
   },
   "repository": {
     "type": "git",
@@ -17,11 +16,5 @@
   "bugs": {
     "url": "https://github.com/dan31408/Portfolio-Website/issues"
   },
-  "homepage": "https://github.com/dan31408/Portfolio-Website#readme",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0",
-    "bootstrap": "^4.4.1",
-    "font-awesome": "^4.7.0",
-    "lite-server": "^2.5.4"
-  }
+  "homepage": "https://github.com/dan31408/Portfolio-Website#readme"
 }
