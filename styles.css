@@ -33,7 +33,8 @@ img {
 }
 
 p {
-    color: #ddd;
+    color: black;
+    font-family: "Anton", sans-serif;
 }
 
 #node-logo {
