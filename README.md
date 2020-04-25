@@ -1,5 +1,5 @@
 # Portfolio-Website
-For job searching.
+For clients and job searching.
 
 
 A simple HTML/CSS website using the Bootstrap framework.
